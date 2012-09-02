@@ -1,0 +1,10 @@
+This code is for the purpose of evaluating conditions over sets of variables.  
+For example, the expression "cond $x > [$y] && cond $y > [$z]", provided with 
+1, 2, and 3 wrapped as to make them variables, would determine that there is a 
+valid assignment, namely $x=3, $y=2, and $z=1
+
+This code is provided primarily for academic purposes, and requires additional 
+libraries to run.  Should you actually desire to use it, please let me know
+(JohnBenjaminCassel on github) and I'm sure we can come to an arrangement.
+
+
